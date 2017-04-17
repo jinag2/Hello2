@@ -27,8 +27,8 @@ public class Main {
 
 		Clothes[] c2 = Arrays.copyOf(c1, c1.length);
 
-//		Clothes[] c2 = new Clothes[c1.length];
-//		System.arraycopy(c1, 0, c2, 0, c1.length);
+	//	Clothes[] c2 = new Clothes[c1.length];
+	//	System.arraycopy(c1, 0, c2, 0, c1.length);
 	
 //	for (int i = 0; i < c1.length; i++) {
 	//		c2[i] = new Clothes(c1[i].color, c1[i].size);
@@ -74,8 +74,7 @@ public class Main {
 		}
 		else {
 		System.out.println("Not 0.2");
-		}*/
-		/*	do {
+		}*//*	do {
 		System.out.println(" Guess (0 ~ 9): ");
 		guess = console.nextInt();
 		} while (guess != number);
